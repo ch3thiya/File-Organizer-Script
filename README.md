@@ -46,8 +46,8 @@ This Python script automatically organizes files from your Downloads folder into
 ---
 
 ## Usage
-1. **Edit paths (Optional)**
-   If your system username or folder structure differs or want to organize files somewhere else, edit the following paths in the script accordingly:
+1. **Edit paths (Optional):**
+   - If your system username or folder structure differs or want to organize files somewhere else, edit the following paths in the script accordingly:
    
    ```bash
     path = "C:/Users/{your-name}/Downloads"
@@ -57,14 +57,14 @@ This Python script automatically organizes files from your Downloads folder into
     videosPath = "C:/Users/{your-name}/Videos/fileorg"
    ```
    
-3. **Run the script.**
+3. **Run the script:**
    
    ```bash
    python script.py
    ```
    
-4. **Check the logs**
-   File movements are logged in file_organizer.log located in the same directory as the script.
+4. **Check the logs:**
+   - File movements are logged in file_organizer.log located in the same directory as the script.
 
   
 **Example Output**
