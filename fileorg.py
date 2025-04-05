@@ -16,18 +16,15 @@ musicPath = f"C:/Users/{your-name}/Music/fileorg"
 imagesPath = f"C:/Users/{your-name}/Pictures/fileorg"
 videosPath = f"C:/Users/{your-name}/Videos/fileorg"
 
-#Checks for the directories and makes them if they aren't available
 for dir_path in [documentsPath, musicPath, imagesPath, videosPath]:
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
 
-#Makes a list of available files
 directory_list  = os.listdir(path)
 for item in directory_list:
     if "." in item:
         available_files.append(item)
 
-#Moves files to the relevant folders according to the extension
 for file in available_files:
     sourcePath = f"C:/Users/{your-name}/Downloads/{file}"
     extension = pathlib.Path(file).suffix
