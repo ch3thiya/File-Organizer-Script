@@ -1,5 +1,4 @@
 # File Organizer
-
 This Python script automatically organizes files from your Downloads folder into categorized directories based on their file types. It categorizes files into Images, Videos, Audio, and Documents, and moves them to the corresponding folders in your system.
 
 ---
